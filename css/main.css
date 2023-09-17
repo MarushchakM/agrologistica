@@ -38,7 +38,8 @@ ul, li {
 .main__bg{
     background: rgba(0, 150, 63, 0.1);
     padding-top: 20px;
-    height: 1000px;
+    padding-bottom: 80px;
+    min-height: 100vh;
 }
 
 .my-nav span{
@@ -100,7 +101,67 @@ h1{
     text-align: center;
     margin-top: 40px;
 }
-.content{
-    margin-left: 150px;
-    margin-top: 25px;
+.debag-container{
+    height: 0;
+}
+.post{
+    width: 85%;
+    margin-right: 0;
+    margin-left: auto;
+    margin-top: 40px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px #1c1a1926;
+    padding: 40px 40px;
+    
+}
+.post h2{
+    text-align: center;
+    font-size: 27px;
+    margin: 30px;
+}
+.post p{
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.post ul{
+    margin-left: 40px;
+    
+}
+.post ul li{
+    list-style: inside;
+    margin-bottom: 10px;
+}
+.post ol li{
+    margin-bottom: 10px;
+    list-style-type: decimal;
+}
+.ff-bold{
+    font-weight: bold;
+}
+
+
+.footer{
+    padding: 40px 0;
+    background: rgba(0, 150, 63, 0.3);
+    box-shadow: 0 2px 10px #00000026;
+}
+
+.footer__logo{
+    max-width: 200px;
+}
+.footer__wrap{
+    display: flex;
+    justify-content: center;
+}
+.title-foto{
+    width: 100%;
+}
+h1{
+    margin-bottom: 50px;
+}
+
+.video{
+    width: 100%;
+    margin-bottom: 30px;
 }
